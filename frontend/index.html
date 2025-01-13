@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Disease Classifier</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🍅 Tomato Disease Classifier</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form id="uploadForm">
+                <label for="fileInput" class="custom-file-input">
+                    Choose Image
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                </label>
+                <button type="submit">Predict</button>
+            </form>
+            
+            <div id="imagePreview" class="hidden">
+                <!-- Preview image will be inserted here -->
+            </div>
+            <div id="predictionResult" class="hidden">
+                <p id="prediction"></p>
+                <div class="tooltip" id="diseaseInfo">
+                    <span class="info-icon">ℹ️</span>
+                    <span class="tooltip-text"></span>
+                </div>
+                <div class="confidence-container">
+                    <label>Confidence:</label>
+                    <div class="confidence-bar" id="confidenceBar"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Tomato Classifier | Created by Santiago</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
