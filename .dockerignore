@@ -1,0 +1,15 @@
+# .dockerignore
+PlantVillage/
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+.DS_Store
+.git
+.gitignore
+.vscode
+.env
