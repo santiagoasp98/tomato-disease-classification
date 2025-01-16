@@ -28,6 +28,5 @@ This project implements a **Tomato Disease Classifier** using a **Convolutional 
 - **Confidence Visualization**: The interface displays a confidence score for the predicted disease class.
 
 ## Future Work
-- Preprocess the input, since the model was trained with 256x256 pixel images.
 - Improve web application.
 - Make a mobile app that allows users to take photos with their phone.
